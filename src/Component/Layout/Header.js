@@ -3,7 +3,7 @@ import classes from './Header.module.css';
 import Mealimage from '../../Assets/meals.jpg'
 import HeaderCartButton from './HeaderCartButton';
 
-function Header() {
+const Header=()=> {
   return (
     <React.Fragment >
         <header className={classes.header}>

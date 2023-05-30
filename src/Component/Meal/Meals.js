@@ -1,10 +1,13 @@
 import React,{Fragment} from 'react'
+import AvailableMeals from './AvailableMeals'
 import MealsSummary from './MealSummary'
 
-export default function Meals() {
+const Meals=()=> {
   return (
     <Fragment>
         <MealsSummary/>
+        <AvailableMeals/>
     </Fragment>
   )
 }
+export default  Meals
